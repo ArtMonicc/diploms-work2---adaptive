@@ -20,13 +20,14 @@
   border: 0;
 }
 
-body {
-  min-width: 320px;
-}
-
 input:focus {
   border: solid 1px #b59f5b;
   outline: 0;
+}
+
+.body {
+  font-family: "OpenSans", Arial, sans-serif;
+  min-width: 320px;
 }
 
 /*-----------------------------------------*/
@@ -85,7 +86,7 @@ input:focus {
 
 .nav-menu {
   padding-top: 45px;
-  padding-right: 15%;
+  padding-right: 190px;
   z-index: 1;
 }
 
@@ -103,14 +104,10 @@ input:focus {
   margin-right: 35px;
 }
 
-.menu-list-item:last-child {
-  margin-right: 0px;
-}
 
 .menu-link {
   text-decoration: none;
   font-weight: bold;
-  font-family: "OpenSans", Arial, sans-serif;
   font-weight: 400;
   font-size: 13px;
   color: #ffffff;
@@ -125,7 +122,6 @@ input:focus {
 }
 
 .main_information {
-  font-family: "OpenSans", Arial, sans-serif;
   font-weight: bold;
   font-size: 45px;
   line-height: 75px;
@@ -154,7 +150,6 @@ input:focus {
 
 .trand-title {
   display: block;
-  font-family: "OpenSans", Arial, sans-serif;
   font-weight: bold;
   font-size: 20px;
   line-height: 29.15px;
@@ -218,7 +213,6 @@ input:focus {
 
 .trands-slogan {
   display: block;
-  font-family: "OpenSans", Arial, sans-serif;
   font-weight: bold;
   font-size: 20px;
   line-height: 29.15px;
@@ -271,7 +265,6 @@ input:focus {
 }
 
 .link-topik {
-  font-family: "OpenSans", Arial, sans-serif;
   font-weight: bold;
   font-size: 14px;
   text-align: left;
@@ -291,7 +284,6 @@ input:focus {
   display: block;
   width: 367px;
   min-height: 40px;
-  font-family: "OpenSans", Arial, sans-serif;
   font-weight: bold;
   font-size: 20px;
   line-height: 24px;
@@ -315,8 +307,6 @@ input:focus {
 
 .block-date {
   display: inline;
-  font-weight: bold;
-  font-family: "OpenSans", Arial, sans-serif;
   font-size: 12px;
   color: #989898;
   margin-right: 8px;
@@ -324,7 +314,6 @@ input:focus {
 
 .block-author {
   display: inline;
-  font-family: "OpenSans", Arial, sans-serif;
   font-weight: bold;
   font-size: 12px;
   color: #000000;
@@ -335,7 +324,6 @@ input:focus {
   display: block;
   margin-top: 50px;
   line-height: 22px;
-  font-family: "OpenSans", "Arial", "sans-serif";
   font-size: 15px;
   color: black;
 }
@@ -355,7 +343,6 @@ input:focus {
 
 .side-bar-title {
   display: block;
-  font-family: "OpenSans", Arial, sans-serif;
   font-weight: bold;
   font-size: 14px;
   text-decoration: none;
@@ -416,7 +403,6 @@ input:focus {
   display: block;
   width: 183px;
   min-height: 10px;
-  font-family: "OpenSans", Arial, sans-serif;
   font-weight: 400;
   font-size: 12px;
   color: #7e7e7e;
@@ -425,7 +411,6 @@ input:focus {
 
 .posts__topic {
   width: 183px;
-  font-family: "OpenSans", Arial, sans-serif;
   font-weight: bold;
   font-size: 14px;
   line-height: 18px;
@@ -505,7 +490,6 @@ input:focus {
 .button-default {
   width: 100%;
   height: 48px;
-  font-family: "OpenSans", Arial, sans-serif;
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
@@ -546,7 +530,6 @@ input:focus {
   padding-right: 13px;
   padding-bottom: 4px;
   padding-top: 4px;
-  font-family: "OpenSans", Arial, sans-serif;
   font-weight: bold;
   font-size: 12px;
   text-decoration: none;
@@ -573,7 +556,6 @@ input:focus {
 .categories-item {
   display: block;
   padding-bottom: 9px;
-  font-family: "OpenSans", Arial, sans-serif;
   font-weight: bold;
   font-size: 14px;
   text-decoration: none;
@@ -587,7 +569,6 @@ input:focus {
 .categories-number {
   vertical-align: super;
   margin-left: 5px;
-  font-family: "OpenSans", Arial, sans-serif;
   font-weight: bold;
   font-size: 11px;
   color: #999966;
@@ -626,7 +607,6 @@ input:focus {
 
 .main-title-features {
   margin-bottom: 15px;
-  font-family: "OpenSans", Arial, sans-serif;
   font-weight: bold;
   font-size: 20px;
   line-height: 24px;
@@ -637,7 +617,6 @@ input:focus {
 
 .subtitle-features {
   margin-bottom: 25px;
-  font-family: "OpenSans", Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 22px;
@@ -666,7 +645,6 @@ input:focus {
 }
 
 .price-old {
-  font-family: "OpenSans", Arial, sans-serif;
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
@@ -676,7 +654,6 @@ input:focus {
 }
 
 .price-new {
-  font-family: "OpenSans", Arial, sans-serif;
   font-weight: bold;
   font-size: 20px;
   line-height: 24px;
@@ -687,7 +664,6 @@ input:focus {
 .button-buy {
   width: 100%;
   height: 48px;
-  font-family: "OpenSans", Arial, sans-serif;
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
@@ -745,7 +721,6 @@ input:focus {
 .copyright-footer {
   margin: 0 auto;
   padding-bottom: 35px;
-  font-family: "OpenSans", Arial, sans-serif;
   font-weight: bold;
   font-size: 12px;
   text-decoration: none;
@@ -821,7 +796,6 @@ input:focus {
 .form-hint {
   display: block;
   margin-bottom: 12px;
-  font-family: "OpenSans", Arial, sans-serif;
   font-weight: bold;
   font-size: 13px;
 }
@@ -831,7 +805,6 @@ input:focus {
   height: 48px;
   padding-left: 21px;
   box-sizing: border-box;
-  font-family: "OpenSans", Arial, sans-serif;
   font-weight: 400;
   background-color: #f4f7f6;
   border: 1px solid #f4f7f6;
